@@ -1,0 +1,74 @@
+.RightMenu {
+    width: 215px;
+    height: 100%;
+    right: 0;
+    top: 0;
+    background-color: #7BB5D2;
+    margin: 0;
+    position: fixed;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+    padding-top: 127px;
+  }
+
+  .all-subs-div{
+    width: 100%;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin-left: 50px;
+  }
+
+  .Subscribtions span { 
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+  }
+
+
+  .RightMenu ul {
+    list-style-type: none; /* Убираем стандартную точку */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .RightMenu li {
+    display: flex;
+    align-items: left;
+    margin-bottom: 10px;
+  }
+  
+  .RightMenu li img {
+    width: 50px; /* Регулируйте размеры по своему усмотрению */
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  
+  .RightMenu .Subscribtions {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .RightMenu .Subscribtions span {
+    margin-bottom: 5px;
+  }
+
+  .SubTxt{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    text-align: center;
+  }
+  

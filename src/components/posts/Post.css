@@ -1,0 +1,158 @@
+.Post {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 950px; 
+    height: 650px; 
+    margin: auto;
+    background: #F7FAFF;
+    box-shadow: 6px 6px 30px rgba(48, 103, 168, 0.53);
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .Post.expanded {
+    /* Стили для увеличенного поста */
+    height: auto; /* Убрать ограничение по высоте */
+    overflow: auto; /* Добавить прокрутку, если контент слишком длинный */
+  }
+  
+  
+  .TopPostInfo {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    align-items: top;
+  }
+
+  .UserPostInfo{
+    display: flex;
+    align-items: top;
+  }
+
+  .UserPostInfo div {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .UserPostInfo img {
+    width: 90px;
+    height: 90px;
+  }
+  
+  .UserNamePost {
+    font-weight: bold;
+    margin-left: 5px;
+  }
+
+  .ThemePost{
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  
+  .DatePostInfo {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .PostContent {
+    margin-bottom: 10px;
+    margin-left: 5%;
+    height: 100%;
+    width: 90%;
+    overflow: hidden;
+    white-space: normal;
+    text-overflow: ellipsis;
+  }
+
+  .moreButton{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: rgb(104, 104, 255);
+    cursor: pointer;
+  }
+
+  .BottomPostInfo {
+    display: flex;
+    align-items: bottom;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+
+  .ReactionsOnPost {
+    display: flex;
+    align-items: center;
+  }
+  
+  .ReactionsOnPost span {
+    margin-right: 10px;
+    
+  }
+  
+  .LogoInPost img {
+    width: 70px;
+    height: 70px;
+  }
+
+/* Кнопка лайка */
+
+.LikeButton .Heart-icon{
+  height: 100px;
+  width: 100px;
+  background: url("heart.png");
+  background-position: left;
+  cursor: pointer;
+  position: absolute;
+}
+
+.LikeButton.liked .Heart-icon{
+  animation: like-anim 0.7s steps(28) forwards;
+}
+
+@keyframes like-anim{
+  to{
+    background-position: right;
+  }
+}
+
+.LikeButton .Heart-bg{
+  background: rgba(255, 192, 200, 0);
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 100ms ease;
+}
+
+.LikeButton .Heart-bg:hover{
+  background: rgba(255, 192, 200, 0.7);
+}
+
+.LikeButton{
+  display: flex;
+  align-items: center;
+}
+
+.LikeButton .Likes-amount{
+  font-size: 20px;
+  font-family: 'Rubik', sans-serif;
+  color: #888;
+  font-weight: 500;
+}
+
+.PostAvatar{
+  border-radius: 50%;
+  max-width: 70px;
+  max-height: 70px;
+}

@@ -1,0 +1,110 @@
+.Header{
+    display: flex;
+    background-color: #F6FAFF;
+    box-shadow: 0px 3px 15px rgba(48, 103, 168, 0.53);
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    top: 0px;
+    padding-bottom: 10px;
+    height: 127px;
+    z-index: 999;
+}
+
+.Login {
+    margin-top: 0px;
+    margin-right: 40px;
+    width: 140px;
+    height: 50px;
+  }
+  
+  .Login a {
+    display: inline-block;
+    font-family: 'Rubik', sans-serif;
+    color: black;
+    font-size: 18px;
+  }
+  
+  .Login img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px; /* Измените значение, если нужно больше отступа */
+    width: 65px;
+    height: 65px;
+  }
+
+
+  .Home{
+    margin-top: 15px;
+    margin-left: 40px;
+  }
+
+  .Logo{
+    margin-top: 15px;
+    width: 450;
+    overflow: hidden;
+    margin-left: 250px;
+  }
+
+.Username{
+  display: inline-block;
+  font-family: 'Rubik', sans-serif;
+  color: black;
+  font-size: 18px;
+}
+
+.loguot-button {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  margin-right: 3px;
+  outline: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  padding-right: 1px; /* Добавляем место для стрелки */
+  position: relative; /* Сделаем родительский элемент относительно позиционированным */
+} 
+
+.input-and-avatar{
+  display: flex;
+}
+
+.search-input{
+  border-radius: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.30);
+  background: #FFF;
+  width: 186px;
+  height: 18px;
+  padding: 7px 18px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 90px;
+  margin-top: 13px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.search-results{
+  background-color: #FFF;
+  position: fixed;
+  width: 200px;
+}
+
+.search-result-au{
+  display: flex;
+}
+
+.search-result-au:hover{
+  display: flex;
+  background-color: #a1a1a1;
+}
+
+.image-search{
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+}
+
+.author-name-search{
+  font-family: 'Rubik', sans-serif;
+  font-size: 15px;
+}

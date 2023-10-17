@@ -1,0 +1,57 @@
+.LeftMenu{
+    width: 215px;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background-color: #7BB5D2;
+    margin: 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 0px;
+    padding-top: 127px;
+}
+
+
+.BeAuthor {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  .BeAuthor img {
+    width: 195px;
+    height: 195px;
+    transition: transform 0.3s ease;
+  }
+
+  .BeAuthor img:hover{
+    transform: scale(1.1);
+  }
+
+  .Liked {
+    padding: 10px;
+  }
+
+  .Liked a {
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    text-decoration: none;
+  }
+
+  .Liked a:hover {
+    color: lightgray;
+  }
+  
+  .author-img-left{
+    border-radius: 50%;
+  }
